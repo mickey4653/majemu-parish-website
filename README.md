@@ -16,3 +16,55 @@ We are guided by our core values, which we call **B.F.G.P.S**:
 
 ## Our Vision
 As a parish of the Celestial Church of Christ, we strive to create a sanctuary where spiritual growth, community fellowship, and divine worship come together. Our mission is to spread the Gospel while maintaining the rich traditions and teachings of the Celestial Church of Christ.
+
+
+
+
+
+
+# Next.js with Firebase Project
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), featuring Tailwind CSS for styling and Firebase for backend services.
+
+## Getting Started
+
+1. First, clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+2. Create a `.env.local` file in the root directory and add your Firebase configuration:
+   - Copy `.env.local.example` to `.env.local`
+   - Replace the placeholder values with your Firebase project credentials
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Features
+
+- Next.js 13+ with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Firebase Integration:
+  - Authentication
+  - Firestore Database
+  - Storage
+
+## Project Structure
+
+- `src/app/*` - App router pages and layouts
+- `src/components/*` - React components
+- `src/config/*` - Configuration files (Firebase, etc.)
+- `public/*` - Static assets
+
+## Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Firebase Documentation](https://firebase.google.com/docs)
