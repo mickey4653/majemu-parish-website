@@ -26,10 +26,7 @@ export interface Event {
   title: string;
   description: string;
   date: string;
-  time: string;
-  location: string;
-  isRecurring: boolean;
-  recurringPattern?: string;
-  createdAt: string;
-  updatedAt: string;
+  imageUrls: string[];
+  createdAt: string | null;
+  updatedAt: string | null;
 } 

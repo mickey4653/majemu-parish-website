@@ -18,7 +18,7 @@ export default function SignInForm() {
       if (isAdmin) {
         router.push('/dashboard');
       } else {
-        router.push('/');
+        router.push('/admin');
       }
     } catch (error) {
       setError('Failed to sign in. Please check your credentials.');
@@ -31,7 +31,7 @@ export default function SignInForm() {
       if (isAdmin) {
         router.push('/dashboard');
       } else {
-        router.push('/');
+        router.push('/admin');
       }
     } catch (error) {
       setError('Failed to sign in with Google.');
